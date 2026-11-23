@@ -19,7 +19,22 @@ From the project directory, run:
 python game_of_life.py
 ```
 
-The project also includes `vtwo.py`, an alternate Tkinter implementation.
+## Version 2
+
+`vtwo.py` is an alternate Tkinter implementation that includes the same 45 x 70
+simulation grid, click-and-drag cell editing, play/pause, single-step, randomize,
+clear, edge wrapping, and generation-speed controls. It also provides preset
+Glider, R-pentomino, Acorn, Lightweight spaceship, and Gosper glider gun patterns,
+along with keyboard shortcuts for common actions.
+
+Run it with:
+
+```powershell
+python vtwo.py
+```
+
+> **Work in progress:** Version 2 is still under development. Additional fixes
+> and refinements are still to be seen, and a complete version will be pushed soon.
 
 ## Controls
 
@@ -70,6 +85,6 @@ When **Wrap** is enabled, cells on opposite edges are considered neighbors.
 
 ## Demo
 
-<video src="./demo_of_v1.mp4" controls title="Game of Life demo"></video>
+<video src="./video/demo_of_v1.mp4" controls title="Game of Life demo"></video>
 
-[Download or view the demo video](./demo_of_v1.mp4)
+[Download or view the demo video](./video/demo_of_v1.mp4)
