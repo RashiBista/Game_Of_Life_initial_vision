@@ -8,7 +8,10 @@ How to play
   3. Press Run and watch life unfold. Hit the goal in time to win!
 
 Keys: Space = run/pause   R = reset   H = hint   N = next level
+
+This is still a work in progress. The code is messy, but the game is playable. Enjoy! but not finished yet. Feedback welcome:
 """
+
 import json
 import os
 import random
