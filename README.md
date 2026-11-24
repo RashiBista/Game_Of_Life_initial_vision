@@ -83,7 +83,7 @@ Each generation uses Conway's rules:
 
 When **Wrap** is enabled, cells on opposite edges are considered neighbors.
 
-## Demo
+## Demo (currently only contains demo of version 1)
 
 <video src="./video/demo_of_v1.mp4" controls title="Game of Life demo"></video>
 
