@@ -22,17 +22,17 @@ ROWS, COLS, CELL = 24, 40, 20
 W, H = COLS * CELL, ROWS * CELL
 
 # ---------- colours ----------
-BG = "#0d0d1a"
-EMPTY = "#141428"
-GRID = "#1d1d38"
-BUILD = "#1b2d52"
-TARGET = "#4d4010"
-WALL = "#5a5a70"
-GOLD = "#ffd700"
-PINK = "#ff6ec7"
-WARN = "#ff8a65"
-GOOD = "#7dffa0"
-AGE_COLORS = ["#00f0ff", "#19e6b4", "#2ecc71", "#7bd34f", "#b8d84a"]
+BG = "#bc92cd"
+EMPTY = "#844cad"
+GRID = "#4e7ab1"
+BUILD = "#3c2c59"
+TARGET = "#0f153a"
+WALL = "#195699"
+GOLD = "#0b1c3b"
+PINK = "#7a4ba8"
+WARN = "#ceb5d4"
+GOOD = "#f6d48f"
+AGE_COLORS = ["#f2e199", "#ecb44d", "#d5a25e", "#c2a368", "#f6941d"]
 
 
 def rect(r0, c0, r1, c1):
